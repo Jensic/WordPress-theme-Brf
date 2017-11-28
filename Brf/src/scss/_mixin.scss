@@ -1,0 +1,33 @@
+// Mixin fo border-radius
+@mixin rounded($radius: 5px) {
+	border-radius: $radius;
+}
+
+// Mixins for the fonts
+@mixin post_headings() {
+	font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $title_color;
+}
+
+// Mixins for the fonts
+@mixin text() {
+	font-family: 'Gafata', sans-serif;
+    font-size: 16px;
+    line-height: 22.8571px;
+    color: $text_color;
+}
+
+// Mixins for the fonts
+@mixin menu() {
+	font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    line-height: 38px;
+    color: $menu_color;
+}
+
+
+
+

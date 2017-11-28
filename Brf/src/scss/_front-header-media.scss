@@ -1,0 +1,39 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+    bottom: 3rem;
+    left: 5%;
+
+    h1 {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+    }
+    }
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 20rem;
+    background-color: #777;
+    width: 100%;
+    margin-top: 10px;
+}
+.carousel-item > img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    margin-top: 4.41rem;
+}

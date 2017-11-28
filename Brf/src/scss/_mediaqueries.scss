@@ -1,0 +1,36 @@
+/* Globals */
+
+@media (min-width: 48em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Front heading */
+
+@media (min-width: 40em) {
+    .front-heading-title {
+    font-size: 3.5rem;
+    }
+    
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+}
+/* Kontakt Form */
+
+@media (max-width: 25em) {
+    .contact-form {
+        width: 100%;
+    }
+}
+    
+@media (max-width: 990px) {
+    .carousel-inner {
+    margin-top: 3.74rem;
+}
+
+}

@@ -1,0 +1,23 @@
+/*
+ * Front heading
+ */
+
+.front-heading {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee;
+    
+    div {
+        h1,p {
+            text-align: center;
+        }
+    }
+    
+}
+.front-heading-title {
+  margin-top: 1rem;
+}
+.front-heading-description {
+  font-size: 1.1rem;
+}
+

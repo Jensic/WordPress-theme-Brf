@@ -1,0 +1,25 @@
+/*
+ * Front page content
+ */
+.front-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .15rem solid #eee;
+    max-width: 80%;
+}
+
+.front-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front-page-pic {
+    max-width: 90%;
+    margin: 1rem 0;
+}
+
+.front-page-text {
+    max-width: 90%;
+}

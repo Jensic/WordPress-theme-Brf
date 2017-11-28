@@ -1,0 +1,40 @@
+/*
+ * Globals.
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    //padding-top: 2rem;
+    background-color: $background_color_body;
+    @include text();
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+
+    @include post_headings();
+}
+
+p, .p {
+    @include text();
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    background-color: $background_color_main_container;
+}
+
+/* Center the pages content heading text */
+
+.center-heading {
+    margin: 0 auto;
+}

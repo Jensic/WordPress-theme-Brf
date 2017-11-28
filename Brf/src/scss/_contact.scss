@@ -1,0 +1,47 @@
+/* Contact Page */
+
+.contact-header {
+    padding-bottom: 1.25rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-bottom: .05rem solid #eee;
+}
+
+.contact-header div h1, .contact-header div p {
+    text-align: center;
+}
+
+.contact-form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*
+-------------------------------------------------
+                MEDDELANDEFORMULÄR
+-------------------------------------------------
+*/
+.contact-form {
+    form {
+        border: 1px solid #ccc;
+        border-radius: 1em;
+        padding: 1.5em;
+        width: auto;
+    }
+
+    label {
+
+        width: 100%;
+    }
+
+    input, textarea {
+        border: 1px solid #999;
+        font: 1em sans-serif;
+        width: 100%;
+    }
+
+    input:focus,textarea:focus {
+        border-color: #000;
+    }
+
+}

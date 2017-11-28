@@ -1,0 +1,50 @@
+/*
+ * Styling of menu
+ */
+
+.navbar-nav li {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    display: inline-block;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        
+        &:hover {
+            color: $hover_color;
+        }
+        
+        &:focus {
+            color: $hover_color;
+        }
+    }
+}
+
+.nav-styling {
+    background: $background_color_menu;
+    padding: 1rem 1rem;
+}
+
+.front-page-header-image {
+    width: 40px;
+    height: 40px;
+}
+
+.screen-reader-text {
+    color: transparent;
+}
+
+.mr-sm-2 {
+    background-color: $search_box_background;
+}
+
+.search-icon {
+    background-color: transparent;
+    color: $search_box_text;
+    padding: 0;
+}
+
+input[type=search].mr-sm-2::-webkit-input-placeholder {
+        color: $search_box_text;
+    }
